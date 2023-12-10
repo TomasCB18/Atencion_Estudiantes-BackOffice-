@@ -5,6 +5,6 @@ consultas frecuentes que los estudiantes hacen a lo largo del periodo academico.
 
 
 
-Pre-Requisitos para usar la app: tener instalado nodejs y npm.
+Pre-Requisitos para usar la app: tener instalado [Node.js](https://nodejs.org/en) y npm.
 
 
