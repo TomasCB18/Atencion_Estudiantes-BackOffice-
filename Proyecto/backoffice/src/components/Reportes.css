@@ -1,0 +1,63 @@
+
+.reportes-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .reportes-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .reportes-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .agregar-reporte-button {
+    background-color: #61dafbaa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .reportes-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .reporte-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
+    text-align: left;
+    font-size: 1.1em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .reporte-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .fecha {
+    color: #888;
+    font-size: 0.8em;
+  }
+  

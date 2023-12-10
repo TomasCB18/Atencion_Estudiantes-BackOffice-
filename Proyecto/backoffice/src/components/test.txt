@@ -1,0 +1,29 @@
+/*
+import React, { Component } from 'react'
+import {useState} from "react"
+import "./Formulario.css"
+export class Formulario extends Component {
+  render() {
+    const [nombre,setNombre] = useState("");
+    const [password,setPassword] = useState("");
+    return (
+      <section>
+        <h1>Login</h1>
+        
+        <form className='formulario'>
+            <input type="text"
+             value ={nombre}
+             onChange={e =>setNombre(e.target.value)}   
+            />
+            <input type="password"/>
+            <button>Iiniciar sesion</button>
+        </form>
+
+
+      </section>
+    )
+  }
+}
+
+export default Formulario
+*/
